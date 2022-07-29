@@ -1,0 +1,24 @@
+
+
+/* media Queries */
+@media only screen and (max-width: 767px) {
+    .carousel-item {
+        height: 150px;
+        width: 335px;
+    }
+    .slider_text{
+        margin-bottom: -20px;
+    }
+    .slider_text h1 {
+       font-size: 15px;
+    }
+    .carousel-caption p {
+        font-size: 8px;
+    }
+    .carousel-caption a{
+        font-size: 15px;
+    }
+    .card-horizontal {
+        flex-direction: column;
+    }
+}
